@@ -36,3 +36,29 @@ li {
     font-size: 3rem;
 }
 
+h1 {
+    font-size: 10vw;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    
+}
+
+.header {
+    text-align: center;
+}
+
+.quote {
+    display: inline-block;
+    font-family: 'Kalam', cursive;
+    margin-top: 1px;
+    font-size: 2vw;
+    width: 85%;
+    font-weight: lighter;
+}
+
+.elon {
+     width: 85%;
+     border-radius: 0.5%;
+}
+
