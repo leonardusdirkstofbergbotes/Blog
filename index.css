@@ -1,39 +1,18 @@
 
 body {
     margin: 0px;
+    font-size: 10px;
 }
-
 
 .navbar {
-    display: flex;
-    flex-direction: column;
+    padding: 5px;
     background-image:linear-gradient(right azure, rgb(211, 211, 211));
     box-shadow: 1px 1px 5px gray;
-    height: 50px;
-    width: 100%;
-    align-items: center;
-}
-
-.container { 
-    width: 75%;
-    align-content: center;
-    height: 100%;
-    line-height: 17px;
-}
-
-.items {
-    list-style: none;
-    display: flex;
-}
-
-li {
-    padding: 20px;
-    padding-top: 2px;
-}
-
-.logo {
-    font-family: 'Sacramento', cursive;
-    font-size: 3rem;
+    list-style-type: none;
+    text-align: center;
+    margin-left: -5%;
+    margin: 0px;
+    height: 3vw;
 }
 
 h1 {
@@ -41,7 +20,6 @@ h1 {
     font-family: 'Raleway', sans-serif;
     margin-top: 2px;
     margin-bottom: 1px;
-    
 }
 
 .header {
