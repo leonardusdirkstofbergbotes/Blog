@@ -1,0 +1,76 @@
+
+body {
+    margin: 0px;
+    font-size: 10px;
+}
+
+.galleryHead {
+    display: block;
+    text-align: center;
+    font-size: 6vw; 
+    margin-top: 1px; 
+}
+
+.galleryHead h1 { 
+    margin-bottom: 2px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1px; 
+}
+
+.galleryHead h2 {
+    margin-top: 2px;
+    font-size: 1.5vw;
+    font-family: 'Kalam', cursive;
+}
+
+.navbar {
+    padding: 5px;
+    background-image:linear-gradient(right azure, rgb(211, 211, 211));
+    box-shadow: 1px 1px 5px gray;
+    list-style-type: none;
+    text-align: center;
+    margin-left: -5%;
+    margin: 0px;
+    height: 3vw; 
+}
+
+.homeJump {
+    float: left;
+}
+
+.homeJump button {
+    font-size: 1.5vw;
+    font-family: 'Raleway', sans-serif;
+    border-color: transparent;
+    border-radius: 4.5%;
+}
+
+.homeJump button:hover {
+    font-size: 1.5vw;
+    font-family: 'Raleway', sans-serif;
+    border-color: transparent;
+    background-color: rgb(101, 180, 180);
+}
+
+#imageShowcase {
+    width: 80%;
+    height: 45vw;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+#change {
+    height: 100%;
+    width:100%;
+    border-radius: 1%;
+}
+
+
+
+
+
+
+
+
