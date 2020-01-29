@@ -53,8 +53,8 @@ body {
 }
 
 #imageShowcase {
-    width: 80%;
-    height: 45vw;
+    width: 75%;
+    height: 41vw;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -67,9 +67,33 @@ body {
     border-radius: 1%;
 }
 
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
 
+.bucket {
+    width: 300px;
+    height: 9vw;
+    margin: 15px auto;
+    position: relative;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
 
+.bucket img {
+    width: 200px;
+    height: 130px;  
+}
 
+#textInsinde {
+    
+}
 
 
 

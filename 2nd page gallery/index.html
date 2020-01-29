@@ -43,11 +43,72 @@
                  <img id="change" src="elonMusk2.jpg">
 
             </div>
+
+        <div class="flexContainer">
+            <div class="bucket">
+                <img id="bucket1" onclick="splash()" src="https://gineersnow.com/wp-content/uploads/2016/11/young-musk-e1427758046552.jpg">
+                <div id="textInsinde"></div>
+            </div>
+
+            <div class="bucket">
+                <img id="bucket2" onclick="splash()" src="https://i.insider.com/5dc349153afd375c04352664?width=1136&format=jpeg">
+                <div id="textInsinde"></div>
+            </div>
+
+            <div class="bucket">
+                <img id="bucket3" onclick="splash()" src="https://content.fortune.com/wp-content/uploads/2015/10/gettyimages-494548555.jpg">
+                <div id="textInsinde"></div>
+            </div>
+
+            <div class="bucket">
+                <img id="bucket4" onclick="splash()" src="https://media.boingboing.net/wp-content/uploads/2016/06/tesla.jpg">
+                <div id="textInsinde"></div>
+            </div>
+
+            <div class="bucket">
+                <img id="bucket5" onclick="splash()" src="https://cnet4.cbsistatic.com/img/4sIXoTd0U0MsMSRHQMhhxIBu8SA=/940x0/2019/12/09/44f39162-9846-41c6-a09e-6e9fbfc99a03/tesla.jpg">
+                <div id="textInsinde"></div>
+            </div>
+
+            <div class="bucket">
+                <img id="bucket6" onclick="splash()" src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/07/23/12/artificial-intelligence-ai-breakthrough.jpg?w968h681">
+                <div id="textInsinde"></div>
+            </div>
+
+            <div class="bucket">
+                <img id="bucket7" onclick="splash()" src="https://i0.wp.com/gadgets-africa.com/wp-content/uploads/2019/07/Elon-Musk-Neuralink.jpg?resize=800%2C400&ssl=1">
+                <div id="textInsinde"></div>
+            </div>
+
+            <div class="bucket">
+                <img id="bucket8" onclick="splash()" src="https://s.marketwatch.com/public/resources/images/MW-HA608_boring_ZH_20181218232637.jpg">
+                <div id="textInsinde"></div>
+            </div>
+
+            <div class="bucket">
+                <img id="bucket9" onclick="splash()" src="https://www.incimages.com/uploaded_files/image/970x450/unspecified_84611.jpg">
+                <div id="textInsinde"></div>
+            </div>
+
+            <div class="bucket">
+                <img id="bucket10" onclick="splash()" src="https://miro.medium.com/max/6048/1*2Cx4Xgw2VpJugbUNbL8h8Q@2x.jpeg">
+                <div id="textInsinde"></div>
+            </div>
+
+        </div>
             
         </main>       
         
         <script>
 
+            function splash () {
+
+                var target = event.target || event.srcElement;
+                var id = target.id
+
+            var imagesrc = document.getElementById(id).src;
+            document.getElementById("change").src= imagesrc;
+        }
         </script>
     </body>
 
