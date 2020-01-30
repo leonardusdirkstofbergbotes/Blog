@@ -2,6 +2,7 @@
 body {
     margin: 0px;
     font-size: 10px;
+    background-image: linear-gradient(white, rgb(238, 253, 253), rgb(230, 250, 224), rgb(240, 255, 235));
 }
 
 .galleryHead {
@@ -75,6 +76,7 @@ body {
     overflow-y: hidden;
     width: 90%;
     height: 13vw;
+    margin: 0 auto;
 }
 
 .flexContainer img {
